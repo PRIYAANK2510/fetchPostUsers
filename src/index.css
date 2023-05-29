@@ -1,0 +1,79 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+}
+
+.App-header {
+	background-color: rgb(40, 58, 98);
+	color: #fff;
+	padding: 0.7rem;
+	text-align: center;
+	width: 100%;
+}
+h4 {
+	font-size: 2rem;
+}
+main {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.search {
+	display: flex;
+	gap: 1rem;
+	margin: 20px 0;
+}
+
+.search label {
+	display: none;
+}
+
+.search input {
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	font-size: 16px;
+	padding: 10px;
+	width: 250px;
+}
+
+.search button {
+	background-color: rgb(40, 58, 98);
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 20px;
+	transition: background-color 0.3s ease;
+}
+
+.search button:hover {
+	background-color: #1b1b8d;
+}
+
+.output {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.output p {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	font-size: 18px;
+	padding: 1rem;
+	margin-bottom: 10px;
+	width: 500px;
+	text-align: center;
+}
